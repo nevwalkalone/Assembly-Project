@@ -425,7 +425,7 @@ Loop:
 	addi $t3,$t3,1
 	j Loop
 
-#back to run
+#back to main
 exitloop:
 	jr $ra
 	
