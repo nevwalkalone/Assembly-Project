@@ -3,6 +3,7 @@ As mentioned in the about section, this is an implementation of a simple hash ta
 
 ## Execution
 This program runs in both QTSPIM and Mars Simulator. Just open the .asm file of this repository in the simulator of your choice and you're good to go.
+
 Download Links
 * [QTSPIM](http://spimsimulator.sourceforge.net/)
 * [MARS](http://courses.missouristate.edu/kenvollmar/mars/)
