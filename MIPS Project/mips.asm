@@ -1,44 +1,17 @@
-    #Epameinwndas Iwannou, AM:3140059
-	#Nestwr Behs-Sofoulhs, AM:3140129
-	
-	.data
-
-N:.word 10
-keys:.word 0
-hash:.space 40	
-Menu:.asciiz "\n Menu\n"
-InsertKey:.asciiz "1.Insert Key\n"
-FindKey:.asciiz "2.Find Key\n"
-DisplayHash:.asciiz "3.Display Hash Table\n"
-Exit:.asciiz "4.Exit\n"
-Choice:.asciiz "\nChoice?"
-NewKey:.asciiz"Give new key(greater than zero): "
-WrongKey:.asciiz"Key must be greater than zero\n"
-SearchKey:.asciiz "Give key to search for: "
-KeyNotFound:.asciiz"Key not in hash table.\n"
-KeyValue:.asciiz"Key value= "
-TablePos:.asciiz "Table position= "
-KeyFound:.asciiz"Key is already in hash table.\n"
-FullHash:.asciiz"Hash table is full\n"
-PosKey:.asciiz"\npos    key\n\n"
-Empty:.asciiz"  "
-Empty2:.asciiz"    "
-changeline:.asciiz"\n"
-
-
+#Epameinwndas Iwannou, AM:3140059
+#Nestwr Behs-Sofoulhs, AM:3140129
 
 	.text
-	
-	#TO SUGKEKRIMENO PROGRAMMA EKTELESTHKE XRHSIMOPOIWNTAS TON PROSOMOIWTH MARS
+	.globl main
 
-run:	
-	 #$t0=N
+main:	
+	#$t0=N
 	lw $t0,N  
 	
 	#$t1=keys
 	lw $t1,keys 
 	
-	#storing $t1 in the stack because we are goint to use it inside a function
+	#storing $t1 in the stack because we are going to use it inside a function
 	addi $sp,$sp,-4
 	sw $t1,0($sp)
 	
@@ -221,24 +194,17 @@ if3:
 	
 	j WHILE
 
-
-
 #if choice==4
 if4:	
 	#telos=1;
 	li $t2,1
-
-
-
 
 WHILE:	
 	#if telos==1 goto END_PROGRAM
 	beq $t2,1,END_PROGRAM
 	
 	j DO
-	
-	
-
+		
 END_PROGRAM:	
 	#restoring $t1 from the stack
 	lw $t1, 0($sp)
@@ -250,8 +216,7 @@ END_PROGRAM:
 	
 	
 				
-						
-								
+												
 
 #void insertkey(int[] hash,int k)																								
 insertkey:
@@ -408,8 +373,7 @@ Endfindkey:
 	jr $ra																															
 																																								
 																																																
-																																																								
-																																																																
+																																																																																																																						
 																																																																																																																																																							
 																																																																																																																																																																																								
 																																																																																																								
@@ -464,3 +428,31 @@ Loop:
 #back to run
 exitloop:
 	jr $ra
+	
+	
+	
+	
+	.data
+
+N:.word 10
+keys:.word 0
+hash:.space 40	
+Menu:.asciiz "\n Menu\n"
+InsertKey:.asciiz "1.Insert Key\n"
+FindKey:.asciiz "2.Find Key\n"
+DisplayHash:.asciiz "3.Display Hash Table\n"
+Exit:.asciiz "4.Exit\n"
+Choice:.asciiz "\nChoice?"
+NewKey:.asciiz"Give new key(greater than zero): "
+WrongKey:.asciiz"Key must be greater than zero\n"
+SearchKey:.asciiz "Give key to search for: "
+KeyNotFound:.asciiz"Key not in hash table.\n"
+KeyValue:.asciiz"Key value= "
+TablePos:.asciiz "Table position= "
+KeyFound:.asciiz"Key is already in hash table.\n"
+FullHash:.asciiz"Hash table is full\n"
+PosKey:.asciiz"\npos    key\n\n"
+Empty:.asciiz"  "
+Empty2:.asciiz"    "
+changeline:.asciiz"\n"
+
