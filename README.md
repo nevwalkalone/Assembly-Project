@@ -4,7 +4,7 @@ As mentioned in the about section, this is an implementation of a simple hash ta
 ## Execution
 This program runs in both QTSPIM and Mars Simulator. Just open the .asm file of this repository in the simulator of your choice and you're good to go.
 
-### Example
+
 ![Εναλλακτικό κείμενο](https://github.com/nevwalkalone/Computer-Systems-Organization-2019-2020-AUEB/blob/main/execution-example-images/exec_example.png)
 
 Download Links
