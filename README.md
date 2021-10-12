@@ -5,7 +5,7 @@ As mentioned in the about section, this is an implementation of a simple hash ta
 This program runs in both QTSPIM and Mars Simulator. Just open the .asm file of this repository in the simulator of your choice and you're good to go.
 
 
-![Εναλλακτικό κείμενο](https://github.com/nevwalkalone/Computer-Systems-Organization-2019-2020-AUEB/blob/main/execution-example-images/exec_example.png)
+![Εναλλακτικό κείμενο](https://github.com/nevwalkalone/Computer-Systems-Organization-2019-2020-AUEB/blob/main/images/exec_example.png)
 
 Download Links
 * [QTSPIM](http://spimsimulator.sourceforge.net/)
