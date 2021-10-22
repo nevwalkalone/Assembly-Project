@@ -1,5 +1,4 @@
-#Epameinwndas Iwannou, AM:3140059
-#Nestwr Behs-Sofoulhs, AM:3140129
+#Author: Nondas Ioannou
 
 	.text
 	.globl main
