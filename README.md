@@ -8,7 +8,7 @@ More details about the assignment can be found [here.](assignment/project-assign
 
 ## Program Execution
 
-This program runs in both QTSPIM and Mars Simulator. After cloning this repository open the .asm file (located at the src folder) in the simulator of your choice and you're good to go.
+This program runs in both QTSPIM and Mars Simulator. After cloning this repository open the .asm file (located in the src folder) in the simulator of your choice and you're good to go.
 
 ![Εναλλακτικό κείμενο](img/exec_example.png)
 
