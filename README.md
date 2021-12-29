@@ -12,7 +12,9 @@ This program runs in both QTSPIM and Mars Simulator. After cloning this reposito
 
 ![Εναλλακτικό κείμενο](img/exec_example.png)
 
-Download Links
+Download Links:
 
 - [QTSPIM](http://spimsimulator.sourceforge.net/)
 - [MARS](http://courses.missouristate.edu/kenvollmar/mars/)
+
+[MIT](LICENSE)
